@@ -10,6 +10,11 @@ Exercícios
 - https://www.youtube.com/watch?v=613XEcGYQC4&ab_channel=Andr%C3%A9Santanch%C3%A8
 - https://www.youtube.com/watch?v=RABFPxXXQqM&ab_channel=PauloFreitas
 - https://www.youtube.com/watch?v=Zh-XW0s_LTc&ab_channel=Maransatto
+- https://go.neo4j.com/rs/710-RRC-335/images/Guia-Definitivo-De-bancos-de-dados-grafos-PT-A4.pdf
+
+- https://neo4j.com/developer/php/
+- https://github.com/neo4j-php/neo4j-php-client
+- https://hub.docker.com/_/neo4j
 
 ## Requisitos
 
@@ -75,9 +80,6 @@ app.test
 Executando lint
 ```bash
 app.lint
-```
-```bash
-app.check
 ```
 
 Executando server php http

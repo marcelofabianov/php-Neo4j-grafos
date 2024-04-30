@@ -50,15 +50,13 @@ RUN pecl install \
   redis \
   apcu \
   xdebug \
-  neo4j-ph \
   swoole && \
   docker-php-ext-enable \
   xdebug \
   redis \
   opcache \
   swoole \
-  apcu \
-  neo4j-php && \
+  apcu && \
   pecl clear-cache
 
 COPY php.ini /usr/local/etc/php/
