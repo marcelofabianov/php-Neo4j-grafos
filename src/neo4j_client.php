@@ -14,5 +14,5 @@ $client = ClientBuilder::create()
 $result = $client->run('CREATE (n:Person {name: $name}) RETURN n', ['name' => 'John']);
 
 foreach ($result->getResults() as $record) {
-    echo 'Node created with ID: ' . $record->get('n')->identity() . PHP_EOL;
+    echo 'Node created with ID: '.$record->get('n')->identity().PHP_EOL;
 }
