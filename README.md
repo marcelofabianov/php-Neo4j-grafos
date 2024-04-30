@@ -26,7 +26,7 @@ Exercícios
 1. Clone o repositório
 
 ```bash
-git git@github.com:marcelofabianov/proposta-arquitetura-02.git
+git git@github.com:marcelofabianov/php-Neo4j-grafos.git
 ```
 
 2. Preparando o ambiente
